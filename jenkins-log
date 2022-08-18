@@ -1,0 +1,32 @@
+12:28:27 Started by user Jeff
+12:28:27 Running as SYSTEM
+12:28:27 Building in workspace /var/lib/jenkins/workspace/FizzBuzz-job
+12:28:27 The recommended git tool is: NONE
+12:28:27 No credentials specified
+12:28:27  > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/FizzBuzz-job/.git # timeout=10
+12:28:27 Fetching changes from the remote Git repository
+12:28:27  > git config remote.origin.url https://github.com/jeff-tor/jenkins-tutorial # timeout=10
+12:28:27 Fetching upstream changes from https://github.com/jeff-tor/jenkins-tutorial
+12:28:27  > git --version # timeout=10
+12:28:27  > git --version # 'git version 2.34.1'
+12:28:27  > git fetch --tags --force --progress -- https://github.com/jeff-tor/jenkins-tutorial +refs/heads/*:refs/remotes/origin/* # timeout=10
+12:28:28  > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+12:28:28 Checking out Revision a17f8361888061a0e75895913d15438d58a97f86 (refs/remotes/origin/main)
+12:28:28  > git config core.sparsecheckout # timeout=10
+12:28:28  > git checkout -f a17f8361888061a0e75895913d15438d58a97f86 # timeout=10
+12:28:28 Commit message: "commit for jenkins tutorial"
+12:28:28  > git rev-list --no-walk 6415791fb32c8f982e1b2488d659baf26600b1f4 # timeout=10
+12:28:28 [FizzBuzz-job] $ /bin/sh -xe /tmp/jenkins2196930851674846004.sh
+12:28:28 + python3 /var/lib/jenkins/workspace/FizzBuzz-job/FizzBuzz.py
+12:28:28 fizz buzz
+12:28:28 1
+12:28:28 2
+12:28:28 fizz
+12:28:28 4
+12:28:28 buzz
+12:28:28 fizz
+12:28:28 7
+12:28:28 8
+12:28:28 fizz
+12:28:28 TRADITION
+12:28:28 Finished: SUCCESS

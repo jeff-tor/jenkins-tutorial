@@ -1,4 +1,4 @@
-num = 10
+num = int(input("enter a number:"))
 for i in range(0, num+1):
 	if i == num:
 		print("TRADITION")
